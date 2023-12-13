@@ -45,7 +45,7 @@ class PageA extends StatelessWidget {
             ),
             FilledButton(
               onPressed: () {
-                Navigator.of(context).pop();
+                Navigator.pop(context);
               },
               child: const Text('Go to Home Page'),
             ),
